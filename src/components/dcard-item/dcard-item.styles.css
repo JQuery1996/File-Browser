@@ -1,0 +1,202 @@
+.dcard-item {
+
+  width: 50%;
+
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  flex-direction: row; 
+  justify-items: center;
+}
+/* --------------------------------- */
+.dcard-item > a > div > button{
+   /* display: none;  */
+   height: 200px;
+   border-radius: 0 !important;
+   /* opacity: 0.5; */
+ } 
+
+/* ------------------------------------------------------------- */
+ .cards__container .css-1qr0z6b-MuiPaper-root-MuiCard-root {
+  position: absolute;
+  border-radius: 0px;
+  min-width: 200px;
+  border: 1px solid var(--b-color);
+  /* display: none; */
+ }
+
+ /* MuiButtonBase-root MuiCardActionArea-root css-b6lsxj-MuiButtonBase-root-MuiCardActionArea-root" */
+ /* ================================================================= */
+ /* @media only screen and (max-height: 500px){
+  .cards__container .css-1qr0z6b-MuiPaper-root-MuiCard-root{
+    position: relative;
+    min-width: 100px;
+    min-height: 100px;
+  }
+  .cards__item > img{
+    position :absolute;
+    width: 45px;
+    height: 30px;
+  }
+  
+ } */
+
+ /* --------------------------------------------------------------- */
+
+ .cards__container .css-1qr0z6b-MuiPaper-root-MuiCard-root {
+  background-color: #ffffff;
+  padding-top: 20px;
+ }
+ /* ----------------------------------------------------------------- */
+.cards__item > img{
+  /* display: none; */
+  height: 60px;
+  width: 90px;
+  border-radius: 6px; 
+  text-align: center;
+  margin: auto; 
+  background-color: aliceblue;
+}
+/* ----------------------------------------------------------------------- */
+
+
+
+.dcard-item > a > .MuiPaper-root > .MuiButtonBase-root > .MuiCardContent-root > .css-18k87ye-MuiTypography-root > a{
+  /* display: none; */
+  color: var(--b-color);
+  font-size: 3vh;
+  text-decoration: none !important;
+  border-bottom: none;
+}
+
+/* -------------------------------------------- */
+.cards {
+  
+  width: 100%;
+  height: 100%;
+  padding: 2rem;
+  display: flex;
+  justify-content: space-between;
+}
+/* ------------------------------------------ */
+.cards__container {
+  position: relative;
+  width: 100%;
+  height: 100%;
+  display: flex;
+   flex-wrap: wrap;
+   justify-content: space-between;
+   flex-direction: row; 
+   justify-items: center;
+  border-radius: 10px;
+  /* border :2px solid var(--y-color); */
+  overflow: auto;
+  padding-top: 6vh;
+  box-shadow: 0px 2px 6px -1px var(--y-color);
+  justify-items: center;
+  margin: auto;
+/* padding: 3rem; */
+border: 1px solid var(--b-color) ;
+
+}
+
+/* button.MuiButtonBase-root.MuiCardActionArea-root.css-b6lsxj-MuiButtonBase-root-MuiCardActionArea-root{ */
+  /* display: none; */
+  /* background-color: red; */
+  /* padding-left: 100px; */
+  /* margin-left: 10px; */
+  /* margin-top: 100px !important; */
+/* } */
+/* ------------------ */
+/* div.dcard-item{ */
+  /* display: none; */
+
+/* } */
+/* ============================================================== */
+@media(min-height:130px) and (max-height:600px){
+  .cards__container{
+    display: flex;
+   flex-wrap: inherit;
+   justify-content: space-between;
+  }
+  img.MuiCardMedia-root.MuiCardMedia-media.MuiCardMedia-img.css-o69gx8-MuiCardMedia-root{
+    /* display: none; */
+    color: red;
+  }
+  div.MuiTypography-root.MuiTypography-h6.MuiTypography-gutterBottom.css-18k87ye-MuiTypography-root a{
+    /* color: red; */
+    /* position:absolute; */
+    color: var(--b-color);
+  }
+  .cards__item{
+    padding-bottom: 200px;
+    /* margin: autos; */
+    padding-right: 25px;
+    padding-top: 10px;
+    height: 60px;
+    /* display: none; */
+    /* max-width: 5px !important; */
+    /* max-height: 5px !important; */
+  }
+  
+}
+/* div.MuiTypography-root.MuiTypography-h6.MuiTypography-gutterBottom.css-18k87ye-MuiTypography-root a */
+div.MuiTypography-root.MuiTypography-h6.MuiTypography-gutterBottom.css-18k87ye-MuiTypography-root a{
+  text-decoration-line: none ;
+  color: #117a8b;
+  /* var(--b-color); */
+}
+/* ---------------------------------------------------- */
+.cards__container .css-1qr0z6b-MuiPaper-root-MuiCard-root {
+  /* border-radius: 35px; */
+  background-color: #fefefe;
+  /* display: none; */
+  /* background-image: linear-gradient(to bottom right, rgb(149, 149, 151), rgb(185, 204, 184)); */
+}
+/* --------------------------------------------------- */
+
+.cards__item {
+  display: flex;
+  border-radius: 250px;
+  /* border-color: red; */
+  width: 100%;
+  /* display: none; */
+  /* padding-bottom: 200px; */
+}
+
+/* ====================================================== */
+@media only screen and (min-width: 1200px) {
+  .content__blog__container {
+    width: 84%;
+  }
+}
+/* =========================================================== */
+@media only screen and (min-width: 1024px) {
+  .cards__items {
+    display: flex;
+    flex-wrap: wrap;
+  }
+}
+/* ============================================================ */
+@media only screen and (max-width: 1024px) {
+  .cards__item {
+    width: 100%;
+  }
+}
+
+@media only screen and (max-width: 517px){
+ 
+  /* div.MuiPaper-root.MuiPaper-elevation.MuiPaper-rounded.MuiPaper-elevation1.MuiCard-root.css-1qr0z6b-MuiPaper-root-MuiCard-root {
+    width: 10px; 
+
+  }
+  */
+
+  .cards__container .css-1qr0z6b-MuiPaper-root-MuiCard-root{
+    /* width: 10px !important; */
+    /* display: none; */
+    color: aqua;
+  }
+}
+
+

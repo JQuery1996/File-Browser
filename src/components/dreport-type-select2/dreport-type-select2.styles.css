@@ -1,0 +1,36 @@
+ .dreport-row-form{
+     display: flex;
+     flex-direction: column;
+     justify-content: flex-start;
+ }
+ 
+.dreport-row-form .dreport-input-form{
+    width: 200px
+}
+
+.dreport-row-form .dreport-input-caption{
+    text-align: right;
+padding: 2px;
+margin: 2px;
+width: 40%;
+}
+
+ .dreport-input-form .css-1o4cuih-container .css-yk16xz-control{
+    width: 100%;
+    height: 37px;
+    z-index: 10000;
+}
+ *
+ .dreport-input-form .css-1o4cuih-container .css-1pahdxg-control{
+    width: 100%;
+    height: 37px;
+} 
+
+.dreport-input-form .css-yk16xz-control .css-g1d714-ValueContainer{
+    width: 100%;
+    height: 37px;
+}
+
+.dreport-input-form  css-26l3qy-menu{
+    z-index: 1000000;
+}

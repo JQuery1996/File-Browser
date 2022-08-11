@@ -1,0 +1,26 @@
+:root {
+  --b-color: #3f6791;
+  
+    /*primary key */
+  --y-color:#586673;  
+   /* forign key */
+
+   --w-color:white;  
+}
+
+body {
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
+    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+    sans-serif;
+  font-size: calc(8px + 6 * ((80vw - 320px) / 680)) !important;
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+    monospace;
+}
+
+a {
+  padding: 0.7rem;
+}

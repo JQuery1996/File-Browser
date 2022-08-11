@@ -1,0 +1,57 @@
+.dcontainer {
+  width: 100%;
+ /*  height: 1000px; */
+  display: block;
+  justify-content: space-between;
+  flex-direction: column;
+}
+.headertitle {
+  border-radius: 10px;
+  color: black;
+  width: 50%;
+  background-image: linear-gradient(
+    to right,
+    #fefeff,
+    #e4e2e7,
+    #cbc6cf,
+    #b5abb6
+  );
+  margin: 15px auto auto auto;
+}
+.dcontainer .filter-container {
+  /* width: 100%;
+  border: black solid 1px;
+  margin: 2px;
+  padding: 2px;
+  width: 100%; */
+border: black solid 1px;
+margin: 15px 0;
+padding: 2px;
+box-shadow: 4px 4px 10px 2px #b7adb8;
+border-radius: 6px;
+-moz-border-radius: 6px;
+-webkit-border-radius: 6px;
+}
+.dcontainer .filter-container .text {
+  color: #757575;
+  font-size: 20px;
+  text-align: right;
+  margin: 15px auto auto auto;
+  padding-right: 2px;
+}
+.dcontainer .grid-container {
+  width: 100%;
+  height: 50%;
+  box-shadow: 4px 4px 10px 2px #b7adb8;
+  border: black solid 1px;
+  border-radius: 6px;
+}
+.mapclass{
+  width: 100%;
+  height: 80%;
+  display: flex;
+  margin: 10px;
+}
+.leaflet-right{
+  display: none;
+}

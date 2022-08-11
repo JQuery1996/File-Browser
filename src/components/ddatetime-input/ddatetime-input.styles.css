@@ -1,0 +1,19 @@
+
+.ddatetime-input .label{
+    width: 30%;
+    height: 31px;
+}
+
+.ddatetime-input .calender{
+    /* width: auto; */
+    height: 31px;
+}
+.ddatetime-input .calender{
+    display: block;
+}
+.ddatetime-input .calenders{
+    display: none;
+}
+.djqx-input{
+   display: inline-flex; 
+}

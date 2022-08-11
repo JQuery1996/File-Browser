@@ -1,0 +1,26 @@
+.App {
+  text-align: center;
+  direction: rtl;
+  margin: auto;
+  padding: 0;
+  /* background-color: #fff; */
+  /* background-image: url("../public/images/background.jpg"); */
+  position: fixed;
+  top: 0;
+  bottom: 0;
+  right: 0;
+  left: 0;
+  overflow: auto;
+  height: 100vh;
+}
+
+.bodydiv{
+  width: 100%;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+  margin-top: 50px;
+  position: relative;
+  overflow: auto;
+}

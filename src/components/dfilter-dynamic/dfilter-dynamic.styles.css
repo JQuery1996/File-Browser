@@ -1,0 +1,326 @@
+/* .dfilterdynamic{
+    display: block ruby;
+} */
+.dbasicfilter {
+    display: block ruby;
+    }
+.ddatetimefilter {
+        display: block ruby;  
+    }
+.ddropdownfilter{
+        display: block ruby; 
+        
+    }
+    
+    .text{
+    color: #161414;
+    font-size: 20px;
+    text-align: right;
+    margin: 15px auto auto auto;
+    padding-right: 2px;
+    }
+    .delete-filter{
+    
+    background-color: rgb(255, 253, 253);
+    height: 27px;
+    border-radius: 5px;
+    border: 1px red solid;
+    width: 20px;
+    }
+    .add-filter{
+        background-color: rgb(255, 253, 253);
+        height: 27px;
+        border-radius: 5px;
+        border: 1px #131212 solid;
+        width: 20px;  
+    }
+    .filter-section {
+        width: 100%;
+        height: 100%;
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+        direction: rtl;
+      }
+      /* 
+      .filter-section .filter-area {
+        width: 100%;
+        height: 50%;
+        display: flex;
+        flex-flow: wrap;
+        flex-direction: row;
+        justify-content: space-between;
+        direction: rtl;
+        padding-top: 0.4rem;
+        position: relative;
+        overflow: auto;
+      } */
+      .filter-section .filter-area {
+      width: 100%;
+      height: 50%;
+      display: flex;
+      flex-flow: wrap;
+          flex-direction: row;
+      flex-direction: row;
+      justify-content: space-evenly;
+      direction: rtl; 
+      padding-top: 0.4rem;
+      position: relative;
+      float: inline-end;
+      }
+      .filter-section .filter-action {
+        width: 15%;
+        height: 35%;
+        display: inline-flex;
+        flex-direction: row;
+        justify-content: space-around;
+        padding-top: 20px;
+      }
+      
+      .ddatetime{
+        width: 215px;
+        color: rgb(170, 170, 170);
+        display: block;
+       /*  border: rgb(170, 170, 170) 1px solid; */
+      }
+      .label{
+        text-align: right;
+        color: black;
+      }
+      .filter-section .filter-area .filter {
+       /*  width: 20%; */
+        height: 20%;
+        display: flex;
+        flex-direction: row;
+        justify-content: space-around;
+        justify-items: right;
+        direction: rtl;
+        padding: 0.5rem 0.5rem 0.5rem 0.5rem;
+      }
+      
+      .filter-section .filter .value {
+        width: 90%;
+        height: 100%;
+      }
+      /* .input{
+         border:0.1px solid black; 
+        width: 250px;
+        box-shadow: 10px 10px grey;
+      }*/
+      .calender{
+        display: flex;
+        flex-direction: column;
+      }
+      .ddate{
+        display: flex;
+        flex-direction: row;
+      }
+      .jqx-position-absolutejqx-resetjqx-clearjqx-input-contentjqx-widget-contentjqx-rc-alljqx-rtl{
+    width : 200px
+      }
+      /* 
+      .filter-section .filter-area .filter .value .ddatetime .calender{
+        display: block;
+        position: absolute;
+      }
+      .filter-section .filter-area .filter .value .ddatetime .label{
+        width: 150px;
+      } */
+      
+      .lab{
+        width: 15px;
+      }
+      
+      .css-2b097c-container{
+        z-index: 1000;
+      }  
+      .ddropdownfilter {
+      height: 50px;
+      width: 250px;
+      display: -webkit-box ;}
+
+/* .dfilterdynamic{
+    display: block ruby;
+} */
+/* .dbasicfilter {
+display: block ruby;
+}
+.ddatetimefilter {
+    display: block ruby;  
+}
+.ddropdownfilter{
+    display: block ruby; 
+}
+
+.text{
+color: #757575;
+font-size: 20px;
+text-align: right;
+margin: 15px auto auto auto;
+padding-right: 2px;
+}
+.delete-filter{
+
+background-color: rgb(255, 253, 253);
+height: 27px;
+border-radius: 5px;
+border: 1px red solid;
+width: 20px;
+}
+.add-filter{
+    background-color: rgb(255, 253, 253);
+    height: 27px;
+    border-radius: 5px;
+    border: 1px blue solid;
+    width: 20px;  
+}
+.filter-section {
+    width: 100%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    direction: rtl;
+  }
+  /* 
+  .filter-section .filter-area {
+    width: 100%;
+    height: 50%;
+    display: flex;
+    flex-flow: wrap;
+    flex-direction: row;
+    justify-content: space-between;
+    direction: rtl;
+    padding-top: 0.4rem;
+    position: relative;
+    overflow: auto;
+  } */
+
+
+
+  filter-action
+  .filter-section .filter-area {
+  width: 100%;
+  height: 50%;
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+/*   flex-flow: wrap;
+      flex-direction: row;
+  flex-direction: row;
+  justify-content: space-evenly; */
+  direction: rtl; 
+  padding-top: 0.4rem;
+  position: relative;
+  float: inline-end;
+  }
+  
+  .filter-section .filter-action {
+    width: 100%;
+    height: 35%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    padding-top: 20px;
+  }
+  .filter-action > JqxButton{
+    background-color: #131212;
+  }
+  .ddatetime{
+    width: 265px;
+   /*  width: 215px; */
+    color: rgb(170, 170, 170);
+    display: block;
+   /*  border: rgb(170, 170, 170) 1px solid; */
+  }
+  .label{
+    text-align: right;
+    color: black;
+  }
+  .filter-section .filter-area .filter {
+   /*  width: 20%; */
+    height: 100%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    justify-items: right;
+    direction: rtl;
+    padding: 0.5rem 0.5rem 0.5rem 0.5rem;
+  }
+  
+  .filter-section .filter .value {
+    width: 90%;
+    height: 100%;
+  }
+  /* .input{
+     border:0.1px solid black; 
+    width: 250px;
+    box-shadow: 10px 10px grey;
+  }*/
+  .calender{
+    display: flex;
+    flex-direction: column;
+  }
+  .ddate{
+    display: flex;
+    flex-direction: row;
+  }
+  .jqx-position-absolutejqx-resetjqx-clearjqx-input-contentjqx-widget-contentjqx-rc-alljqx-rtl{
+width : 200px
+  }
+  /* 
+  .filter-section .filter-area .filter .value .ddatetime .calender{
+    display: block;
+    position: absolute;
+  }
+  .filter-section .filter-area .filter .value .ddatetime .label{
+    width: 150px;
+  } */
+  
+  .lab{
+    width: 15px;
+  }
+  
+  .css-2b097c-container{
+    z-index: 1000;
+  }  
+  .ddropdownfilter {
+  height: 50px;
+  width: 250px;
+  display: -webkit-box ;
+  /* padding-right: 5px; */
+  margin-left: 10px;
+  z-index: 1000;
+}
+
+
+/* icon 
+filter-action
+filter-section
+dfilterdynamic
+filter-container
+dcontainer */
+/* #JqxButtonjqx4e134c44fed5 */
+
+
+.dfilterdynamic > .filter-section > .filter-action > .jqx-success {
+  /* display: none; */
+  background-color: #e9e9ed !important;
+  color: #117a8b !important;
+  border-left-color: #252c25 !important;
+border-right-color: #191b19 !important;
+border-top-color: #0b0c0b !important;
+border-bottom-color: #222522 !important;
+  /* border-color: red; */
+  /* color: aqua; */
+}
+
+.dfilterdynamic > .filter-section > .filter-action > .jqx-danger{
+  background-color: #e9e9ed !important;
+  color:#117a8b !important;
+  border-left-color: #252c25 !important;
+border-right-color: #191b19 !important;
+border-top-color: #0b0c0b !important;
+border-bottom-color: #222522 !important;
+  /* border-color: red; */
+}
+/* jqx-danger */

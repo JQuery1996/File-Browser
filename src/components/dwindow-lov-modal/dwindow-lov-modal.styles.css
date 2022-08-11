@@ -1,0 +1,18 @@
+.lov-grid-container {
+  overflow: auto;
+}
+/* .lov-filter-container{
+      height: 40%;
+  } */
+.lov-grid-container .footerdiv {
+  display: flex;
+}
+.dwindow-lov-modal .modal-main {
+  width: 100%;
+}
+.dwindow-lov-modal .modal-main .scrolclass {
+  overflow: auto;
+}
+.dwindow-lov-modal .modal-main .scrolclass .lov-grid-container {
+  overflow: auto;
+}

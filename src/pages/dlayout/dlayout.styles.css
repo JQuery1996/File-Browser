@@ -1,0 +1,53 @@
+.dlayoutclass {
+  display: grid;
+  margin: auto;
+  width: 100%;
+  height: 100%;
+}
+.ddd {
+  overflow: auto;
+}
+
+.dlayoutclass .css-1kr9x0n-MuiSnackbarContent-action {
+  margin-right: auto;
+}
+
+.dlayoutclass .css-1eqdgzv-MuiPaper-root-MuiSnackbarContent-root {
+  /* background-color: linear-gradient(to bottom right, rgb(163, 160, 234), rgb(185, 204, 184)); */
+  background-color:rgba(255,255,255,.9);
+  color: #117a8b;
+  border: 1px solid #117a8b;
+  float: center;
+}
+
+
+dlayoutclass > .MuiSnackbar-root > .MuiPaper-root > .MuiSnackbarContent-action > .MuiButtonBase-root{
+  /* top: 40px; */
+  /* display: none !important; */
+  color: aliceblue !important;
+}
+
+.dlayoutclass .css-1eqdgzv-MuiPaper-root-MuiSnackbarContent-root{
+  /* color: blue; */
+  font-weight: bold;
+}
+
+/* MuiButtonBase-root
+MuiSnackbarContent-action
+MuiPaper-root 
+"MuiSnackbar-root */
+
+.css-ptiqhd-MuiSvgIcon-root{
+  color:#117a8b;
+  margin-right: 100px !important ;
+  margin-left: -2px;
+  padding-left: 0;
+}
+
+/* dlayoutclass > .MuiSnackbar-root > .MuiPaper-root > .MuiSnackbarContent-action{
+  display: none;
+} */
+
+.css-wg610s-MuiSnackbar-root{
+  top: 50px !important;
+}

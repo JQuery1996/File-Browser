@@ -1,0 +1,11 @@
+.sign-in-sign-up{
+    width: 100%;
+    display: flex;
+    justify-content: space-around;
+    margin: 30px auto;
+    align-items: inherit;
+    overflow-y: auto;
+    height: 90%;
+
+    
+}

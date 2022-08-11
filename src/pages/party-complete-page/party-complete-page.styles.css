@@ -1,0 +1,30 @@
+.party-complete-filter{
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    direction: rtl;
+}
+
+.party-complete-filter .formlabel{
+    font-size: 1rem;
+    text-align: center;
+    align-items: center;
+    align-content: center;
+}
+.party-dselect2 .dselect2{
+    width : 300px;
+    padding: 0;
+}
+.party-dselect2 .dselect2 .label{
+    height: 0px;
+}
+.party-dselect2 .dselect2 .dropdown .drop .css-1o4cuih-container .css-yk16xz-control{
+    height: 40px;
+}
+.party-dselect2 .dselect2 .dropdown .drop .css-1o4cuih-container .css-1pahdxg-control{
+    height: 40px;
+}
+.party-dselect2 .dselect2 .dropdown .down .cancelfilterbutton{
+    height: 40px;
+    width: 30px
+}

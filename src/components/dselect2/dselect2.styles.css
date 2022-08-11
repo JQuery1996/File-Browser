@@ -1,0 +1,70 @@
+.dselect2 {
+  width: 214px;
+  height: 50px;
+  position: relative;
+  padding: 20px 0px;
+}
+.dselect2 .label {
+  color: black;
+}
+.dselect2 .dropdown .drop .css-1o4cuih-container .css-yk16xz-control {
+  min-height: 15px;
+  height: 25px;
+  width: 214px;
+}
+
+.dselect2
+  .dropdown
+  .drop
+  .css-1o4cuih-container
+  .css-1pahdxg-control
+  .css-1hb7zxy-IndicatorsContainer
+  .css-1okebmr-indicatorSeparator {
+  padding: 0px;
+  margin-top: 0px;
+  height: 24px;
+}
+.dselect2
+  .dropdown
+  .drop
+  .css-1o4cuih-container
+  .css-1pahdxg-control
+  .css-1hb7zxy-IndicatorsContainer
+  .css-tlfecz-indicatorContainer {
+  padding-top: 0px;
+}
+.dselect2 .dropdown .drop .css-1o4cuih-container .css-1pahdxg-control {
+  min-height: 15px;
+  height: 25px;
+  width: 214px;
+}
+
+.dselect2
+  .dropdown
+  .drop
+  .css-1o4cuih-container
+  .css-1pahdxg-control
+  .css-1hb7zxy-IndicatorsContainer
+  .css-1gtu0rj-indicatorContainer {
+  padding-top: 0px;
+}
+.dselect2
+  .dropdown
+  .drop
+  .css-1o4cuih-container
+  .css-yk16xz-control
+  .css-g1d714-ValueContainer {
+  height: 25px;
+  margin-bottom: 10px;
+}
+
+.dselect2 .dropdown {
+  display: inline-flex;
+  width: 300px;
+  z-index: 100000;
+}
+.dselect2 .dropdown .down .cancelfilterbutton {
+  background-color: rgb(255, 253, 253);
+  height: 25px;
+  border-radius: 5px;
+}

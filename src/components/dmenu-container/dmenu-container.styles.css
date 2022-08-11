@@ -1,0 +1,28 @@
+.dmenu-container {
+  background-color: aquamarine;
+}
+
+
+/* .JqxMenu-class{ */
+
+  /* width: 800px; */
+/* } */
+
+/* jqx-rtl
+jqx-menu-ul
+JqxMenu-class
+jqx-menu-wrapper */
+
+.jqx-menu-wrapper > .JqxMenu-class > .jqx-menu-ul > .jqx-rtl:hover{
+  /* display: none */
+  border: 1px solid #84a8f1;
+  /* background-color: #84a8f1 ; */
+  /* text-align: center; */
+  
+}
+
+.jqx-menu-wrapper > .JqxMenu-class > .jqx-menu-ul > .jqx-rtl{
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}

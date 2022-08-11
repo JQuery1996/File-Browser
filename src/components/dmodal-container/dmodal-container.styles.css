@@ -1,0 +1,149 @@
+.modal-container {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background: rgba(0, 0, 0, 0.6);
+  z-index: 100009;
+}
+.modal-main {
+  border-radius: 0.5rem;
+  position: fixed;
+  background: white;
+  width: 80vw;
+  min-width: 40vw;
+  min-height: 20vh;
+  max-height: 80vh;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  direction: rtl;
+  color: black;
+  /* font-family: "Poppins", sans-serif; */
+  font-weight: 400;
+  line-height: 1.7;
+  color: #1f2029;
+  background-color: #fff;
+  background-size: 101%;
+  display: flex;
+  flex-direction: column;
+  padding: 0.25rem;
+
+  max-height: 80vh;
+  transition: ease-in-out;
+  animation: myfirst 1s;
+  animation-direction: normal;
+}
+.celldelete {
+  display: flex;
+  flex-direction: row;
+  border-bottom: #bbb5b5 solid thin;
+  border-left: #dddada solid thin;
+}
+.cells {
+  display: grid;
+  grid-template-areas: "top top top top top top";
+  grid-gap: 1vh;
+  grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr;
+  margin: auto;
+  width: 90%;
+}
+.rownamedelete {
+  margin-left: 1vh;
+}
+@keyframes myfirst {
+  0% {
+    opacity: 0;
+    /* width: 0vw; */
+  }
+
+  100% {
+    opacity: 100%;
+    /* width: 80vw; */
+  }
+}
+.footerdiv {
+  height: 15%;
+  display: flex;
+  justify-content: space-around;
+  display: block ruby;
+  width: 100%;
+}
+.scrolclass {
+  overflow-y: auto;
+  overflow-x: hidden;
+  scroll-padding-right: 0;
+  margin: 0.25rem;
+  height: 100%; /* 5555 */
+  margin-bottom: 50px;
+}
+.dform {
+  /* font-family: "Poppins", sans-serif; */
+  font-weight: 400;
+  line-height: 1.7;
+  color: #1f2029;
+  background-color: #fff;
+  overflow: visible;
+  background-size: 101%;
+  direction: rtl;
+  display: flex;
+  flex-direction: column;
+  /* min-height: 40vh; */
+}
+.group_name {
+  position: relative;
+  top: -2em;
+  margin-left: 1em;
+  margin-right: 1em;
+  display: inline;
+  width: 100%;
+}
+.group_label {
+  background-color: white;
+  font-size: large;
+  margin-right: 20%;
+  float: right;
+}
+.form-group {
+  margin-left: 1rem;
+  margin-bottom: 1rem;
+  width: 100%;
+}
+.fields_style {
+  width: 100%;
+}
+.Confirmclassdis {
+  background-color: white;
+  color: black;
+  border: 2px solid #c1ccc2;
+  width: 15%;
+}
+.Confirmclass {
+  background-color: white;
+  color: black;
+  border: 2px solid #4caf50;
+  width: 15%;
+}
+.Confirmclass:hover {
+  background-color: #4caf50;
+  color: white;
+}
+.Cansleclass {
+  background-color: white;
+  color: black;
+  border: 2px solid #ec1708;
+  width: 15%;
+}
+.Cansleclass:hover {
+  background-color: #ec1708;
+  color: white;
+}
+.forminput {
+  width: 100%;
+}
+.closebtnClass {
+  position: fixed;
+  right: 10px;
+  top: 2px;
+}

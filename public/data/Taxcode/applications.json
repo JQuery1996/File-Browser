@@ -1,0 +1,38 @@
+[
+  {
+    "appId": 1,
+    "appName": "DWD_TAXCODE",
+    "name": "DWD_TAXCODE",
+    "path": "/Dwd_Taxcode/Dwd_Taxcode",
+    "src": "images/img-2.jpg",
+    "icon": "M19 3H5c-1.1 0-1.99.9-1.99 2L3 19c0 1.1.9 2 2 2h14c1.1 0 2-.9 2-2V5c0-1.1-.9-2-2-2zm-1 11h-4v4h-4v-4H6v-4h4V6h4v4h4v4z",
+    "arName": "التصنيف الالكتروني"
+  },
+  {
+    "appId": 2,
+    "appName": "DWD_SECURITY",
+    "name": "DWD_SECURITY",
+    "path": "/Dwd_Taxcode/DWD_SECURITY",
+    "src": "images/img-2.jpg",
+    "icon": "M19 3H5c-1.1 0-1.99.9-1.99 2L3 19c0 1.1.9 2 2 2h14c1.1 0 2-.9 2-2V5c0-1.1-.9-2-2-2zm-1 11h-4v4h-4v-4H6v-4h4V6h4v4h4v4z",
+    "arName": "إدارة المستخدمين"
+  },
+  {
+      "appId": 2,
+      "appName": "DWD_SECURITY",
+      "name": "DWD_SECURITY",
+      "path": "/Dwd_Mailing/DWD_SECURITY",
+      "src": "images/img-2.jpg",
+      "icon": "FaAccessibleIcon",
+      "arName": "إدارة المراقبة"
+  },
+  {
+      "appId": 2,
+      "appName": "DWD_SECURITY",
+      "name": "DWD_SECURITY",
+      "path": "/Dwd_Mailing/DWD_SECURITY",
+      "src": "images/img-2.jpg",
+      "icon": "FaAccessibleIcon",
+      "arName": " إعداد التقارير"
+  }
+  ]
